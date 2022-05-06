@@ -1,0 +1,13 @@
+#Simple Calculator#
+num1=eval(input("Num_1 : "))
+num2=eval(input("Num_2 : "))
+op=input("Operator! ")
+if op=="+":
+    sum=num1+num2
+elif op=="-":
+    sum=num1-num2
+elif op=="*":
+    sum=num1*num2
+elif op=="/":
+    sum=num1/num2
+print("{0} {1} {2} is {3}" .format(num1, op, num2, sum))
